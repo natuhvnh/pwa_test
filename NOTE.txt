@@ -1,0 +1,18 @@
+LINK: https://www.youtube.com/watch?v=7y7xlVo4Iio&list=PL4cUxeGkcC9gTxqJBcDmoi5Q2pzDusSL7&index=31  
+1. Create manifest.json (information about the web)
+2. Create service worker (JS file)
+- Used to load content offline (cached assets data).
+- Use background sync (activate event when connection re-established).
+- Use push notifications.
+- Only work from HTTPS connection
+3. Adapt firebase database
+- Create database.
+- Register to web.
+- Add firebase SDK to index.html
+- Write db.js to use firebase db.
+- Listen realtime to all changes in database then make changes in web + cache data to IndexedDB using firebase buildin 
+(when online IndexedDB auto sync with newer data)
+4. Deploy to firebase
+Follow intructions in firebase hosting
+// FINAL WEBSITE
+https://rich-meridian-248614.firebaseapp.com/
